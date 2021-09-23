@@ -1,2 +1,2 @@
 # configure environment for proj
-export PYTHONPATH="/home/concerta/dev/ippaida"
+export PYTHONPATH="/Users/marco/Workspace/personal/ippaida"
