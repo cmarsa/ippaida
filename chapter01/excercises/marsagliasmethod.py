@@ -10,8 +10,9 @@ import math
 
 # get random point from circle
 while True:
-    x = 1.0 + 2.0 * random.uniform(-1, 1)
-    y = 1.0 + 2.0 * random.uniform(-1, 1)
+    x = -1.0 + 2.0 * random.random()
+    y = -1.0 + 2.0 * random.random()
+    print x, y
     if x*x + y*y <= 1.0:
         break
 
