@@ -1,2 +1,2 @@
 # configure environment for proj
-export PYTHONPATH=pwd
+export PYTHONPATH="/Users/marco/Workspace/personal/ippaida"
