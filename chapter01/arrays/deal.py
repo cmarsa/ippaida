@@ -26,12 +26,11 @@ for rank in RANKS:
 
 # shuffle the deck several times
 deck_length = len(deck)
-for j in range(0, 5):
-    for i in range(0, deck_length):
-        r = random.randrange(0, n)
-        temp = deck[r]
-        deck[r] = deck[i]
-        deck[i] = temp
+for i in range(0, deck_length):
+    r = random.randrange(i, deck_length)
+    temp = deck[r]
+    deck[r] = deck[i]
+    deck[i] = temp
 
 # draw cards
 draw_index = 0
